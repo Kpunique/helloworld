@@ -16,7 +16,7 @@ $sentence = implode(",", $part1) . ' and ' . $newArray[$count - 1];
 <p>You have entered the following information:</p>
 
 <ul>
-    <li><label>Name</label>: <?= Html::encode($model->item) ?></li>
+    <li><label>Array value</label>: <?= Html::encode($model->item) ?></li>
 </ul>
 
 <p> your array value in a sentence is <?= Html::encode($sentence) ?></p>
