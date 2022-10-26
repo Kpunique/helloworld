@@ -128,10 +128,6 @@ class SiteController extends Controller
         return $this->render('about');
     }
 
-     /* other code */ 
-     public function actionSpeak($message = "default message") { 
-        return $this->render("speak",['message' => $message]); 
-     } 
 
 
      //forNameEmailPage
