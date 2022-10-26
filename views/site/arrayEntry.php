@@ -3,15 +3,7 @@
 use yii\helpers\Html;
 use yii\bootstrap4\ActiveForm;
 
-/* 
-$newArray = array("Learn", "Grow", "Code", "Fun");
-
-$count = count($newArray);
-
-$part1 = array_slice($newArray, 0, $count - 1);
-$sentence = implode(",", $part1) . ' and ' . $newArray[$count - 1];
-
-echo Html::encode($sentence); */
+//http://localhost:8080/index.php?r=site%2Farray
 ?>
 
 
