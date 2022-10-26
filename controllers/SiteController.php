@@ -144,7 +144,7 @@ class SiteController extends Controller
 
             // do something meaningful here about $model ...
 
-            return $this->render('entry-confirm', ['model' => $model]);
+            return $this->render('entryConfirm', ['model' => $model]);
         } else {
             // either the page is initially displayed or there is some validation error
             return $this->render('entry', ['model' => $model]);
@@ -161,10 +161,10 @@ class SiteController extends Controller
 
             // do something meaningful here about $model ...
 
-            return $this->render('entry-confirm', ['model' => $model]);
+            return $this->render('arrayOutput', ['model' => $model]);
         } else {
             // either the page is initially displayed or there is some validation error
-            return $this->render('entry', ['model' => $model]);
+            return $this->render('arrayEntry', ['model' => $model]);
         }
     }
 }
